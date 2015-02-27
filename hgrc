@@ -1,0 +1,15 @@
+[ui]
+username = user@example.com
+
+[web]
+allow_push = *
+push_ssl = false
+templates = /version-control-tools/hgtemplates/
+style = gitweb_mozilla
+
+[extensions]
+pushlog = /version-control-tools/hgext/pushlog
+buglink = /version-control-tools/hgext/pushlog-legacy/buglink.py
+hgwebjson = /version-control-tools/hgext/pushlog-legacy/hgwebjson.py
+pushlogfeed = /version-control-tools/hgext/pushlog-legacy/pushlog-feed.py
+
